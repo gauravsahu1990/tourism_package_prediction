@@ -16,10 +16,10 @@ try:
 except RepositoryNotFoundError:
     print(f"Space '{repo_id}' not found. Creating new space...")
     create_repo(repo_id=repo_id, repo_type=repo_type, private=False)
-    print(f"Space '{repo_id}' created.")
+    print(f"Space '{repo_id}' created.  ")
 
 api.upload_folder(
-    folder_path="tourism_package_prediction/data",
+    folder_path="tourism_project/data",
     repo_id=repo_id,
     repo_type=repo_type,
 )
