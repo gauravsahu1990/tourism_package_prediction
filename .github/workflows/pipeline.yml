@@ -1,4 +1,4 @@
-name: Week 3 MLS pipeline
+name: trourism package pipeline
 
 on:
   push:
