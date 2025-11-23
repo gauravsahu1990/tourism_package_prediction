@@ -7,8 +7,8 @@ from huggingface_hub import hf_hub_download
 # Load Model from HuggingFace Hub
 # ---------------------------------------------------------------
 model_path = hf_hub_download(
-    repo_id="<YOUR_HF_USERNAME>/tourism-model",
-    filename="best_tourism_model_v1.joblib"
+    repo_id="gauravsahu1990/Tourism-Package-Prediction",
+    filename="best_tourism_packaging_model_v1.joblib"
 )
 
 model = joblib.load(model_path)
